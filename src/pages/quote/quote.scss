@@ -1,0 +1,12 @@
+page-quote {
+.person{
+    color: #ccc;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+
+        &::before{
+            content: "- ";
+        }
+    }
+}
